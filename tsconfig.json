@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES6", // Compiles down to ES6
+        "module": "ESNext", // Use ESNext or ES6 for import/export
+        "moduleResolution": "node", // Resolve modules like Node.js
+        "outDir": "./dist", // Output directory for compiled files
+        "rootDir": "./src",
+        "resolveJsonModule": true,
+        "esModuleInterop": true, // Enables compatibility with CommonJS and ES Modules
+        "skipLibCheck": true, // Speeds up compilation by skipping library checking
+        "strict": true // Enables strict type-checking options
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
